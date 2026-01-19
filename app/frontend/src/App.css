@@ -1,0 +1,165 @@
+"/* App-specific styles */
+
+/* Toolbar positioning */
+.toolbar-container {
+    position: fixed;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+}
+
+/* Zoom controls positioning */
+.zoom-controls {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 50;
+}
+
+/* Top bar positioning */
+.top-bar {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+}
+
+/* Admin button positioning */
+.admin-btn-container {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 50;
+}
+
+/* Color picker positioning */
+.color-picker-container {
+    position: fixed;
+    left: 24px;
+    bottom: 24px;
+    z-index: 50;
+}
+
+/* Stroke width slider */
+.stroke-slider-container {
+    position: fixed;
+    left: 80px;
+    bottom: 24px;
+    z-index: 50;
+}
+
+/* Toast positioning override */
+.sonner-toast-group {
+    z-index: 200 !important;
+}
+
+/* Input styling for admin modal */
+.admin-input {
+    @apply w-full px-4 py-3 rounded-lg bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500;
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+    @apply transition-all duration-200;
+}
+
+.admin-input:focus {
+    background: rgba(24, 24, 27, 1);
+}
+
+/* Primary button */
+.btn-primary {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-200;
+    background: #3b82f6;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Secondary button */
+.btn-secondary {
+    @apply px-6 py-3 rounded-lg font-medium transition-all duration-200;
+    background: rgba(255, 255, 255, 0.08);
+    color: #a1a1aa;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fafafa;
+}
+
+/* Help tooltip */
+.help-tooltip {
+    @apply absolute px-3 py-2 rounded-lg text-xs whitespace-nowrap;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fafafa;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.tool-btn:hover .help-tooltip {
+    opacity: 1;
+}
+
+/* Text input on canvas */
+.canvas-text-input {
+    position: absolute;
+    background: transparent;
+    border: 2px dashed #3b82f6;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    padding: 4px 8px;
+    min-width: 100px;
+}
+
+/* Loading spinner */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Scale in animation */
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.scale-in {
+    animation: scaleIn 0.2s ease-out;
+}
+"
