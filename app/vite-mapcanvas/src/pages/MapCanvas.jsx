@@ -1,4 +1,4 @@
-"import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Stage, Layer, Line, Rect, Circle, Text } from 'react-konva'
 import { toast } from 'sonner'
 import axios from 'axios'
@@ -439,4 +439,3 @@ const MapCanvas = () => {
 }
 
 export default MapCanvas
-"
