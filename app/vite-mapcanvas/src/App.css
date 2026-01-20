@@ -1,4 +1,4 @@
-".toolbar-container {
+.toolbar-container {
   position: fixed;
   left: 24px;
   top: 50%;
@@ -169,4 +169,3 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
-"
