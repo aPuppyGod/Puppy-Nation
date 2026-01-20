@@ -1,4 +1,4 @@
-"import React, { useState } from 'react'
+import React, { useState } from 'react'
 import { Lock, Eye, EyeOff } from 'lucide-react'
 
 const AdminModal = ({ isOpen, onClose, onLogin }) => {
@@ -67,4 +67,3 @@ const AdminModal = ({ isOpen, onClose, onLogin }) => {
 }
 
 export default AdminModal
-"
