@@ -1,4 +1,4 @@
-"import React from 'react'
+import React from 'react'
 import { ZoomIn, ZoomOut, Maximize2 } from 'lucide-react'
 
 const ZoomControls = ({ scale, onZoomIn, onZoomOut, onReset }) => {
@@ -25,4 +25,3 @@ const ZoomControls = ({ scale, onZoomIn, onZoomOut, onReset }) => {
 }
 
 export default ZoomControls
-"
