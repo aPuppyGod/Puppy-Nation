@@ -1,4 +1,4 @@
-"import React from 'react'
+import React from 'react'
 
 const StrokeSlider = ({ strokeWidth, onStrokeWidthChange, fontSize, onFontSizeChange, selectedTool }) => {
   const isTextTool = selectedTool === 'text'
@@ -41,4 +41,3 @@ const StrokeSlider = ({ strokeWidth, onStrokeWidthChange, fontSize, onFontSizeCh
 }
 
 export default StrokeSlider
-"
