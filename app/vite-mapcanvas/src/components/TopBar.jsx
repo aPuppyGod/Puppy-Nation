@@ -1,4 +1,4 @@
-"import React from 'react'
+import React from 'react'
 import { Map, Trash2 } from 'lucide-react'
 
 const TopBar = ({ scale, isAdmin, onClearCanvas }) => {
@@ -28,4 +28,3 @@ const TopBar = ({ scale, isAdmin, onClearCanvas }) => {
 }
 
 export default TopBar
-"
