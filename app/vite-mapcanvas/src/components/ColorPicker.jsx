@@ -1,4 +1,4 @@
-"import React from 'react'
+import React from 'react'
 
 const ColorPicker = ({ colors, selectedColor, onSelectColor }) => {
   return (
@@ -34,4 +34,3 @@ const ColorPicker = ({ colors, selectedColor, onSelectColor }) => {
 }
 
 export default ColorPicker
-"
