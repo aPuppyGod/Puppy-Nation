@@ -1,4 +1,4 @@
-"import React from 'react'
+import React from 'react'
 import { Toaster } from 'sonner'
 import MapCanvas from './pages/MapCanvas'
 import './App.css'
@@ -13,4 +13,3 @@ function App() {
 }
 
 export default App
-"
