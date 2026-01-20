@@ -1,0 +1,172 @@
+".toolbar-container {
+  position: fixed;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+}
+
+.zoom-controls {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 50;
+}
+
+.top-bar {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+.admin-btn-container {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 50;
+}
+
+.share-btn-container {
+  position: fixed;
+  top: 24px;
+  right: 140px;
+  z-index: 50;
+}
+
+.color-picker-container {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  z-index: 50;
+}
+
+.stroke-slider-container {
+  position: fixed;
+  left: 24px;
+  bottom: 80px;
+  z-index: 50;
+}
+
+.admin-input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #18181b;
+  border: 1px solid #27272a;
+  color: white;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.admin-input::placeholder {
+  color: #71717a;
+}
+
+.admin-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.08);
+  color: #a1a1aa;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fafafa;
+}
+
+.canvas-text-input {
+  position: absolute;
+  background: transparent;
+  border: 2px dashed #3b82f6;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  padding: 4px 8px;
+  min-width: 100px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: #09090b;
+  border: 1px solid #27272a;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Slider styles */
+.slider-track {
+  height: 4px;
+  background: #27272a;
+  border-radius: 2px;
+  position: relative;
+}
+
+.slider-range {
+  position: absolute;
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 2px;
+}
+
+.slider-thumb {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+"
