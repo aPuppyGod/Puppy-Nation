@@ -1,4 +1,4 @@
-"import React from 'react'
+import React from 'react'
 
 const Toolbar = ({ tools, selectedTool, onSelectTool }) => {
   return (
@@ -23,4 +23,3 @@ const Toolbar = ({ tools, selectedTool, onSelectTool }) => {
 }
 
 export default Toolbar
-"
